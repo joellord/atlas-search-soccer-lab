@@ -8,7 +8,7 @@ import styled from "styled-components";
 const Home = () => {
   const [players, setPlayers] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
-  const [operator, setOperator] = useState("text");
+  const [operator, setOperator] = useState("find");
   const [functionScore, setFunctionScore] = useState(false);
   const [submitted, setSubmitted] = useState(false);
 
